@@ -10,3 +10,10 @@
 *.lai
 *.la
 *.a
+
+# qtcreator project
+CMakeLists.txt.user*
+
+# backup files
+*~
+*.bak
