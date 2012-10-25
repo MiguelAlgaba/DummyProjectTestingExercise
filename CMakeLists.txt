@@ -10,3 +10,5 @@ add_test( NAME failingtest COMMAND ${CMAKE_BINARY_DIR}/fail )
 add_executable(pass pass.cpp)
 add_test( NAME passingtest COMMAND ${CMAKE_BINARY_DIR}/pass )
 
+add_executable(error error.cpp)
+
